@@ -1,0 +1,23 @@
+<head>
+    <title>Тесты</title>
+</head>
+<body>
+    <h1>положить!</h1>
+    <form method="POST" action="/deposit">
+        <label for="currency">currency</label>
+        <input type="text" name="currency" /><br />
+        <label for="value">value</label>
+        <input type="text" name="value" /><br />
+        <label for="quantity">quantity</label>
+        <input type="text" name="quantity" /><br /><br />
+        <input type="submit" value="Положить" />
+    </form>
+    <h1>снять!</h1>
+    <form method="POST" action="/withdraw">
+        <label for="currency">currency</label>
+        <input type="text" name="currency" /><br />
+        <label for="amount">amount</label>
+        <input type="text" name="amount" /><br />
+        <input type="submit" value="Снять" />
+    </form>
+</body>

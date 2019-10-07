@@ -2,5 +2,6 @@
 <!-- Komodo Project File - DO NOT EDIT -->
 <project id="847988e8-86a6-4073-95ea-7dcf06b61352" kpf_version="5" name="flaskbank.komodoproject">
 <preference-set idref="847988e8-86a6-4073-95ea-7dcf06b61352" id="project" preftype="project">
+  <long id="prefs_version">1</long>
 </preference-set>
 </project>

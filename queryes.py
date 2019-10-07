@@ -51,13 +51,20 @@ def getmoney(currency, amount):
             #print('номинал ' + str(m.value))
             o = amount%m.value
             #Если нет остатка от деления
+            #print(o)
             if o == 0:
-                t = amount/m.value
+                #print('if0')
+                t = int(amount/m.value)
+                #print(t)
+                #print(m.total)
+                mt = m.total
                 m.total = m.total - t
                 findedtotal.total = findedtotal.total - amount
                 #Если есть количество банкнот больше или равно
                 resultlist.append({'value': m.value, 'quantity': t})
-                if m.total >= t:
+                #print(mt)
+                #print(t)
+                if mt >= t:
                     r=True
                     break
                     #Ставим результат успешным, завершаем цикл
